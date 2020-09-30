@@ -10,8 +10,8 @@
 
 int main(int argc, const char * argv[]) {
     if(argc < 2) {
-        std::cout << "Wrong input" << std::endl;
-        std::cout << "Example of use: ./bfInterpreter sample.bf" << std::endl;
+        std::cerr << "Wrong input" << std::endl;
+        std::cerr << "Example of use: ./bfInterpreter sample.bf" << std::endl;
         return 1;
     }
     
