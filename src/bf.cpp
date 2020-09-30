@@ -158,7 +158,6 @@ void BF::interpretBf(std::string program) {
                 break;
             case ',':
                 // We simply get the input from the user
-                
                 scanf("%c", &(*memoryIterator));
                 break;
             case '>':
