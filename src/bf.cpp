@@ -15,7 +15,7 @@
 //#define MEMORY_SIZE 100000
 #define ERROR_DOES_NOT_MATCH "Error: '[' does not match ']'"
 
-size_t BF::MEMORY_SIZE = 30000;
+std::size_t BF::MEMORY_SIZE = 30000;
 
 BF::BF() {
     // Instantiate the memory with size MEMORY_SIZE

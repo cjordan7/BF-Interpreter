@@ -14,7 +14,7 @@
 
 class BF {
 private:
-    static size_t MEMORY_SIZE;
+    static std::size_t MEMORY_SIZE;
 
     std::vector<char> memory;
     std::vector<char>::iterator memoryIterator;
