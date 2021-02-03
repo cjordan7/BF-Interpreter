@@ -11,7 +11,7 @@ Or in other words, run the following lines in your favorite terminal:
 
 ```
 $ git clone https://github.com/cjordan7/BF-Interpreter.git
-$ cd path/to/clone/bf/interpreter
+$ cd path/to/clone/bf/interpreter/
 $ mkdir build
 $ cd build
 $ cmake ..
@@ -23,6 +23,7 @@ $ cmake ..
 After building the interpreter, launch the program with a *bf program*
 
 ```
+cd path/to/clone/bf/interpreter/build/
 $ ./bfInterpreter path/to/bfFile
 ```
 
