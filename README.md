@@ -20,7 +20,7 @@ $ cmake ..
 
 ## Use
 
-After building the interpreter, launch the program with a *bf program*
+After building the interpreter, launch it with a *bf program*:
 
 ```
 cd path/to/clone/bf/interpreter/build/
