@@ -16,6 +16,7 @@ class BF {
 private:
     static std::size_t MEMORY_SIZE;
 
+    // Variables
     std::vector<char> memory;
     std::vector<char>::iterator memoryIterator;
     std::string::const_iterator instructionIterator;
@@ -25,14 +26,21 @@ public:
     BF();
     void interpret(std::string filename);
 
-private: std::string readFile(const std::string& filename);
+private:
+    std::string readFile(const std::string& filename);
+
     void interpretBf(std::string program);
     void errorMatching(std::stack<std::string::const_iterator>& stack);
+
+    // Increment and decrement operator
     void incrementOperator();
     void decrementOperator();
+
+    // Move operators
     void moveLeftOperator(std::string& bf);
     void moveRightOperator();
-    
+
+    // Save instruction
     void saveInstruction();
     
     std::string::const_iterator getNewInstruction();

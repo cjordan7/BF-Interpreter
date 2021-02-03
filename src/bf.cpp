@@ -124,15 +124,15 @@ bool BF::isToken(char c) {
 }
 
 std::string BF::cleanInput(std::string& bf) {
-    std::string newS;
+    std::string newBF;
 
     for(int i = 0; i < bf.size(); ++i) {
         if(isToken(bf.at(i))) {
-            newS += bf.at(i);
+            newBF += bf.at(i);
         }
     }
 
-    return newS;
+    return newBF;
 }
 
 // The main function to interpret BF
