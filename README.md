@@ -5,7 +5,7 @@ I wrote an interpreter for the [BF-language](https://en.wikipedia.org/wiki/Brain
 
 ## Installation
 
-First, clone the repository. Then create a build directory and call `cmake`.
+First, clone the repository, then create a build directory and call `cmake`.
 
 Or in other words, run the following lines in your favorite terminal:
 
