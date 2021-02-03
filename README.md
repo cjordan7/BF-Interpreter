@@ -7,14 +7,14 @@ I wrote an interpreter for the [BF-language](https://en.wikipedia.org/wiki/Brain
 
 First, clone the repository. Then create a build directory and call `cmake`.
 
-Or in other words, call the following lines:
+Or in other words, run the following lines in your favorite terminal:
 
 ```
-git clone https://github.com/cjordan7/BF-Interpreter.git
-cd path/to/clone/bf/interpreter
-mkdir build
-cd build
-cmake ..
+$ git clone https://github.com/cjordan7/BF-Interpreter.git
+$ cd path/to/clone/bf/interpreter
+$ mkdir build
+$ cd build
+$ cmake ..
 ```
 
 
@@ -23,6 +23,6 @@ cmake ..
 After building the interpreter, launch the program with a *bf program*
 
 ```
-./bfInterpreter path/to/bfFile
+$ ./bfInterpreter path/to/bfFile
 ```
 
