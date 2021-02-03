@@ -13,7 +13,7 @@ Or in other words, run the following lines in your favorite terminal:
 $ git clone https://github.com/cjordan7/BF-Interpreter.git
 $ cd path/to/clone/bf/interpreter/
 $ mkdir build
-$ cd build
+$ cd build/
 $ cmake ..
 ```
 
